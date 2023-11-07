@@ -1,0 +1,17 @@
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\текстовый конверт.exe
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\текстовый конверт.deps.json
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\текстовый конверт.runtimeconfig.json
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\текстовый конверт.dll
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\текстовый конверт.pdb
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.AssemblyInfoInputs.cache
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.AssemblyInfo.cs
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.dll
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\refint\текстовый конверт.dll
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.pdb
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.genruntimeconfig.cache
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\ref\текстовый конверт.dll
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.csproj.AssemblyReference.cache
+C:\Users\user1\source\repos\текстовый конверт\текстовый конверт\obj\Debug\net7.0\текстовый конверт.csproj.CopyComplete
