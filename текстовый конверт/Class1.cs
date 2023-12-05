@@ -89,24 +89,14 @@ namespace текстовый_конверт
             {
                 xml.Serialize(xm, text);
             }
-            massiv(per, text);
             return text;
         }
-        public static List<ocnov> jsonvvod(string asd, List<ocnov> text,ocnov figuri, string[]per)
+        public static void jsonvvod(string asd, List<ocnov> text, string[]per)
         {
-            XmlSerializer xml = new XmlSerializer(typeof(List<ocnov>));
-            using (FileStream xm = new FileStream(asd, FileMode.OpenOrCreate))
-            {
-                xml.Serialize(xm, text);
-            }
-            for (int i = 0; i < 4; i++)
-            {
-                figuri.figura = per[0];
-                figuri.pervoe = per[1];
-                figuri.vtoroe = per[2];
-                figuri.tretie = per[3];
-            }
-            return text;
+            vivod(text);
+            string json = JsonConvert.SerializeObject(text);
+            File.WriteAllText(asd, json);
+           
         }
 
        

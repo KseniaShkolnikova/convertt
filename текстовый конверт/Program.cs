@@ -19,18 +19,19 @@ namespace текстовый_конверт
                 Console.WriteLine("Введите путь до файла, который вы хотите открыть");
                 Console.WriteLine("-------------------------------------------------");
                 string asd = Console.ReadLine();
+                List<ocnov> text1 = new List<ocnov>();
                 if (asd.EndsWith(".txt"))
-                {            
-                    ocnov.txtvivod (per, asd, text, figuri);
+                {
+                    text1 = ocnov.txtvivod (per, asd, text, figuri);
                 }
                 else if (asd.EndsWith(".xml"))
                 {
-                    ocnov.xmlvivod(asd, text, per);
+                    text1 = ocnov.xmlvivod(asd, text, per);
 
                 }
                 else if (asd.EndsWith(".json"))
                 {
-                    ocnov.jsonvivod(asd, text, per);
+                    text1 =  ocnov.jsonvivod(asd, text, per);
 
                 }
                 Console.WriteLine("Сохраните файл в один из 3 форматов (txt,xml,json)-F1 и путь до файла, для выхода - Escape");
@@ -42,15 +43,15 @@ namespace текстовый_конверт
                     asd = Console.ReadLine();
                     if (asd.EndsWith(".txt"))
                     {
-                        ocnov.txtvvod(per, text, asd);
+                        ocnov.txtvvod(per, text1, asd);
                     }
                     else if (asd.EndsWith(".xml"))
                     {
-                        ocnov.xmlvvod(asd, text, per);
+                        ocnov.xmlvvod(asd, text1, per);
                     }
                     else if (asd.EndsWith(".json"))
                     {
-                        ocnov.jsonvvod(asd, text, figuri, per);
+                        ocnov.jsonvvod(asd, text1, per);
                     }
                     Console.Clear();
                 }
